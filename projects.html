@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projects by Sakshi Kulkarni — SafeBrief AI, API Failure Detection System, Student Management System, and more." />
+  <title>Projects | Sakshi Kulkarni</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div id="page-loader" role="status" aria-label="Loading page">
+    <div class="loader-name">Projects</div>
+    <div class="loader-bar"></div>
+  </div>
+
+  <header>
+    <nav id="navbar" aria-label="Main navigation">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo" aria-label="Sakshi Kulkarni Home">SK<span>.</span></a>
+        <ul class="nav-links" role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="theme-toggle" aria-label="Switch to dark mode" title="Toggle theme">🌙</button>
+          <button class="hamburger" aria-label="Open mobile menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <nav class="mobile-nav" aria-label="Mobile navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="projects-page-hero" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="reveal">
+          <span class="section-tag">🚀 My Work</span>
+          <h1 class="section-title" id="projects-heading">Projects</h1>
+          <p class="section-subtitle mt-2">Real-world projects spanning AI/ML platforms, web applications, and management systems. Each built to solve a genuine problem.</p>
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar" role="group" aria-label="Filter projects by category">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">All Projects</button>
+          <button class="filter-btn" data-filter="ai" aria-pressed="false">🤖 AI / ML</button>
+          <button class="filter-btn" data-filter="web" aria-pressed="false">🌐 Web</button>
+          <button class="filter-btn" data-filter="python" aria-pressed="false">🐍 Python</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="section" aria-label="Projects list">
+      <div class="container">
+        <div class="projects-full-grid">
+
+          <!-- SafeBrief AI -->
+          <article class="project-card reveal" data-category="ai python">
+            <div class="project-image ai-bg" role="img" aria-label="SafeBrief AI platform illustration">🛡️</div>
+            <div class="project-body">
+              <p class="project-category">AI · Machine Learning · Python</p>
+              <h2 class="project-title">SafeBrief AI</h2>
+              <p class="project-desc">
+                An Industrial Safety Intelligence Platform that leverages machine learning and large language models to analyze workplace incidents, predict risks, and generate actionable safety recommendations.
+              </p>
+
+              <!-- Features -->
+              <div class="project-features">
+                <p style="font-size:.78rem;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem">Key Features</p>
+                <div class="feature-list">
+                  <span class="feature-item">Incident Analysis</span>
+                  <span class="feature-item">Risk Prediction</span>
+                  <span class="feature-item">AI Recommendations</span>
+                  <span class="feature-item">Chatbot Querying</span>
+                  <span class="feature-item">PDF/Image/Video Analysis</span>
+                  <span class="feature-item">Dashboard Reporting</span>
+                </div>
+              </div>
+
+              <div class="project-stack">
+                <span class="stack-tag">Python</span>
+                <span class="stack-tag">Streamlit</span>
+                <span class="stack-tag">Machine Learning</span>
+                <span class="stack-tag">LLM</span>
+                <span class="stack-tag">SQLite</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-sm" aria-label="View SafeBrief AI live demo">🚀 Live Demo</a>
+                <a href="#" class="btn btn-outline btn-sm" aria-label="View SafeBrief AI on GitHub">🐙 GitHub</a>
+              </div>
+            </div>
+          </article>
+
+         
+
+          <!-- Student Management System -->
+          <article class="project-card reveal" data-category="python">
+            <div class="project-image py-bg" role="img" aria-label="Student Management System illustration">🎓</div>
+            <div class="project-body">
+              <p class="project-category">Python · Database</p>
+              <h2 class="project-title">A Web Portal for Academic Project Lifecycle Management</h2>
+              <p class="project-desc">
+                web-based platform designed to manage the entire lifecycle of academic projects in a college or university
+              </p>
+
+              <div class="project-features">
+                <p style="font-size:.78rem;font-weight:600;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:.4rem">Key Features</p>
+                <div class="feature-list">
+                  <span class="feature-item">CRUD Operations</span>
+                  <span class="feature-item">Student Records</span>
+                  <span class="feature-item">Database Integration</span>
+                  <span class="feature-item">Search & Filter</span>
+                </div>
+              </div>
+
+              <div class="project-stack">
+                <span class="stack-tag">Python</span>
+                <span class="stack-tag">MySQL</span>
+                <span class="stack-tag">CLI Interface</span>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="btn btn-primary btn-sm" aria-label="View Student Management System on GitHub">🐙 GitHub</a>
+                <a href="#" class="btn btn-ghost btn-sm">📋 Details</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- No results message (hidden by default) -->
+        <p id="no-results" style="display:none;text-align:center;color:var(--text-muted);padding:3rem 0" aria-live="polite">
+          No projects found in this category yet. Check back soon!
+        </p>
+
+        <!-- CTA -->
+        <div class="text-center mt-4 reveal">
+          <p style="font-size:.95rem;color:var(--text-muted);margin-bottom:1rem">More projects in progress — follow me on GitHub!</p>
+          <a href="https://github.com/kulkarni37" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="View Sakshi's GitHub profile">🐙 View GitHub Profile</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">SK<span style="color:var(--accent)">.</span></div>
+          <p class="footer-desc">Frontend Developer & AI/ML Enthusiast. Building responsive web applications and AI-powered solutions.</p>
+          <div class="footer-socials">
+            <a href="https://github.com/kulkarni37" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">🐙</a>
+            <a href="https://linkedin.com/in/sakshi-kulkarni-103137330" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">💼</a>
+            <a href="mailto:sakshikulkarni12195@gmail.com" class="social-link" aria-label="Send email">📧</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="footer-title">Navigation</h3>
+          <nav class="footer-links" aria-label="Footer navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <h3 class="footer-title">Projects</h3>
+          <nav class="footer-links" aria-label="Projects navigation">
+            <a href="#">SafeBrief AI</a>
+            <a href="#">API Failure Detection</a>
+            <a href="#">Student Mgmt System</a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Sakshi Kulkarni. Crafted with ❤️ and lots of ☕</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scroll-top" aria-label="Scroll to top">↑</button>
+  <script src="js/script.js"></script>
+  <script>
+    /* Update aria-pressed on filter buttons */
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.setAttribute('aria-pressed', 'false'));
+        btn.setAttribute('aria-pressed', 'true');
+      });
+    });
+  </script>
+</body>
+</html>
