@@ -75,7 +75,7 @@ portfolio-website/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/sakshikulkarni/portfolio-website.git
+git clone https://github.com/kulkarni37/Portfolieo.git
 
 # 2. Enter the directory
 cd portfolio-website
@@ -87,65 +87,8 @@ open index.html
 
 No build tools, no package manager, no dependencies — pure HTML/CSS/JS.
 
----
 
-## 🌐 Deployment
 
-### GitHub Pages
-1. Push the project to a GitHub repository
-2. Go to **Settings → Pages**
-3. Set source to `main` branch, root folder `/`
-4. Your site will be live at `https://yourusername.github.io/portfolio-website`
-
-### Netlify (Recommended)
-1. Drag and drop the project folder onto [netlify.com/drop](https://app.netlify.com/drop)
-2. Get an instant public URL
-
-### Vercel
-```bash
-npx vercel --prod
-```
-
----
-
-## 🎨 Customization
-
-### Update Personal Info
-- Replace `Sakshi Kulkarni`, email, GitHub/LinkedIn links in all HTML files
-- Update `assets/resume.pdf` with your actual resume
-
-### Change Color Theme
-Edit CSS variables in `css/style.css`:
-```css
-:root {
-  --primary:   #2563eb;   /* Main brand color */
-  --secondary: #38bdf8;   /* Secondary */
-  --accent:    #06b6d4;   /* Accent highlights */
-}
-```
-
-### Add New Projects
-In `projects.html`, duplicate a `.project-card` article and set:
-```html
-<article class="project-card reveal" data-category="ai web python">
-```
-Use space-separated values to assign multiple categories.
-
----
-
-## 📸 Screenshots
-
-> Add screenshots to the `screenshots/` folder and reference them below.
-
-| Page | Screenshot |
-|------|-----------|
-| Home | `screenshots/home.png` |
-| About | `screenshots/about.png` |
-| Skills | `screenshots/skills.png` |
-| Projects | `screenshots/projects.png` |
-| Contact | `screenshots/contact.png` |
-
----
 
 ## ♿ Accessibility
 
@@ -165,16 +108,9 @@ Use space-separated values to assign multiple categories.
 
 - 🎓 B.E. Computer Science Engineering
 - 💼 Frontend Developer | AI & Machine Learning Enthusiast
-- 📧 sakshi.kulkarni@example.com
-- 🐙 [GitHub](https://github.com/sakshikulkarni)
-- 💼 [LinkedIn](https://linkedin.com/in/sakshi-kulkarni)
+- 📧 sakshikulkarni12195@gmail.com
+- 🐙 [GitHub](hhttps://github.com/kulkarni37)
+- 💼 [LinkedIn](https://www.linkedin.com/in/sakshi-kulkarni-103137330)
 
----
-
-## 📝 License
-
-This project is open source under the [MIT License](LICENSE).
-
----
 
 *Built as part of internship Task 1 — Portfolio Website Creation*
