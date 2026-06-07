@@ -109,7 +109,7 @@ No build tools, no package manager, no dependencies — pure HTML/CSS/JS.
 - 🎓 B.E. Computer Science Engineering
 - 💼 Frontend Developer | AI & Machine Learning Enthusiast
 - 📧 sakshikulkarni12195@gmail.com
-- 🐙 [GitHub](hhttps://github.com/kulkarni37)
+- 🐙 [GitHub](https://github.com/kulkarni37)
 - 💼 [LinkedIn](https://www.linkedin.com/in/sakshi-kulkarni-103137330)
 
 
