@@ -6,7 +6,9 @@ A modern, responsive portfolio website built with **HTML5, CSS3, and Vanilla Jav
 
 ## 🌟 Live Preview
 
-> Open `index.html` in your browser to view locally. Deploy to GitHub Pages, Netlify, or Vercel for a live URL.
+> View the live site: `https://myportfolieo2005.netlify.app/`  
+> Or open `index.html` in your browser to view locally.
+
 
 ---
 
